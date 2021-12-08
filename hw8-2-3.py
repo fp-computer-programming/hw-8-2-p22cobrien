@@ -7,7 +7,6 @@ def three_letter_words(word):
             total += 1
         else:
             continue
-    x += 1
     return total
 
 print(three_letter_words(["cat", "bat", "apple"]) == 2)
