@@ -5,9 +5,10 @@ def sum_odds(num):
     for x in num:
         if x % 2 != 0:
             total += x
+            x += 1
         else:
-            continue
-    x += 1
+            x += 1
+    
     return total
 
 print(sum_odds([1, 2, 3, 4, 5, 6]) == 9)
