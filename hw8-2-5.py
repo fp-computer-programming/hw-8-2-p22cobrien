@@ -2,11 +2,13 @@
 
 def sum_no_odd(num):
     total = 0
+    z = 0
     for x in num:
-        if x % 2 != 0:
-            break
-        else:
-            total += x
+        if z < len(num):
+            if x % 2 == 0:
+                total += x
+            elif x % 2 != 0:
+                z += len(num)
     return total
 
 
