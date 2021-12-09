@@ -5,8 +5,6 @@ def three_letter_words(word):
     for x in word:
         if len(x) <= 3:
             total += 1
-        else:
-            continue
     return total
 
 print(three_letter_words(["cat", "bat", "apple"]) == 2)
