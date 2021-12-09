@@ -5,9 +5,9 @@ def count_odds(num):
     for x in num:
         if x % 2 != 0:
             total += 1
+            x += 1
         else:
-            continue
-    x += 1
+            x += 1
     return total
 
 
